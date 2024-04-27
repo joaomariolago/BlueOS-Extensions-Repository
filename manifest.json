@@ -6,6 +6,65 @@
         "docker": "nicknothom/sonarview",
         "website": "https://sonarview.io/",
         "versions": {
+            "1.9.12-beta.7": {
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ]
+                    }
+                },
+                "requirements": null,
+                "tag": "1.9.12-beta.7",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "device-integration",
+                "filter_tags": [],
+                "extra_links": {},
+                "images": [
+                    {
+                        "digest": "sha256:f813cd7f5be1895be141b816a6f216fde2b191f710a054ce61f8411cd2896af0",
+                        "expanded_size": 42093819,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        }
+                    },
+                    {
+                        "digest": "sha256:4ebbc42072d29c9c40fa1117613187cca80221b90da372b87cd6fc51ce4f6b4b",
+                        "expanded_size": 40285609,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        }
+                    },
+                    {
+                        "digest": "sha256:22858307b0f0287f3c2e115480bd7abd58215fc3d635d9b0b04ed8c5fe692100",
+                        "expanded_size": 42092623,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        }
+                    }
+                ]
+            },
             "1.9.10-beta": {
                 "permissions": {
                     "HostConfig": {
