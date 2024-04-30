@@ -6,6 +6,65 @@
         "docker": "nicknothom/sonarview",
         "website": "https://sonarview.io/",
         "versions": {
+            "1.9.12-beta.8": {
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ]
+                    }
+                },
+                "requirements": null,
+                "tag": "1.9.12-beta.8",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "device-integration",
+                "filter_tags": [],
+                "extra_links": {},
+                "images": [
+                    {
+                        "digest": "sha256:f28eb276d147a8c5b33f766568758ea1262b42a512ba14ecbdd3702a03bf7609",
+                        "expanded_size": 44663580,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        }
+                    },
+                    {
+                        "digest": "sha256:3b8b7880f4ce78bab0ab1a28d2bb9aaf92cffc1cf807f905e45de1406885acdd",
+                        "expanded_size": 42853915,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        }
+                    },
+                    {
+                        "digest": "sha256:72337e56947e2b73521a626f8db1692a17d9b54f95787784edda76236e70ffce",
+                        "expanded_size": 44661331,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        }
+                    }
+                ]
+            },
             "1.9.12-beta.7": {
                 "permissions": {
                     "HostConfig": {
@@ -2538,6 +2597,82 @@
         "docker": "bluerobotics/cockpit",
         "website": "https://github.com/bluerobotics/cockpit",
         "versions": {
+            "v1.0.0-beta.15": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": null,
+                "tag": "v1.0.0-beta.15",
+                "website": null,
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": null,
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "type": "other",
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "images": [
+                    {
+                        "digest": "sha256:2d411e8d83f3e1921b429166c1b160c9813a7591d3cfded3a8330255fb651959",
+                        "expanded_size": 14606235,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        }
+                    },
+                    {
+                        "digest": "sha256:2518c72e3f4fab12cef9d223386823fbe84c32445758414d62037ffcfeb3fc54",
+                        "expanded_size": 14818336,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        }
+                    },
+                    {
+                        "digest": "sha256:431e2ea212e30a2f549633e5b840fdce27034a1817a97de62ebcce2bdf899877",
+                        "expanded_size": 14862357,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        }
+                    }
+                ]
+            },
             "v1.0.0-beta.14": {
                 "permissions": {
                     "ExposedPorts": {
@@ -4278,82 +4413,6 @@
                     {
                         "digest": "sha256:2a87e20cc10d45ae10962c029869e687e0a434c0f5aa7f71477109bac670ccde",
                         "expanded_size": 12879798,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        }
-                    }
-                ]
-            },
-            "v0.15.0": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": null,
-                "tag": "v0.15.0",
-                "website": null,
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": null,
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "type": "other",
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "images": [
-                    {
-                        "digest": "sha256:2de70722cde21a8128afbefebb4fa334f342ca9c9af1a1c03aa498f0c09b6f57",
-                        "expanded_size": 12425663,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        }
-                    },
-                    {
-                        "digest": "sha256:e7e87fccb999f3474c96f2eade04602995b70aff7a83ff58c0e43065811a610f",
-                        "expanded_size": 12763030,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        }
-                    },
-                    {
-                        "digest": "sha256:8402eeb08e6435d09eee021928305e2cdb5a9dfc2789f0ae59a259724d5d82ce",
-                        "expanded_size": 12866295,
                         "platform": {
                             "architecture": "amd64",
                             "variant": null,
@@ -6492,15 +6551,6 @@
                             "variant": null,
                             "os": "linux"
                         }
-                    },
-                    {
-                        "digest": "sha256:aedd59836db2027ddf1ef1bf107e2ca80bf94cafa0c7a2263040b6299398ec41",
-                        "expanded_size": 73489461,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        }
                     }
                 ]
             },
@@ -6541,15 +6591,6 @@
                         "platform": {
                             "architecture": "amd64",
                             "variant": null,
-                            "os": "linux"
-                        }
-                    },
-                    {
-                        "digest": "sha256:89ef4fcfe2880c061112831114679d61eb12639002da11203fecfb03312fa844",
-                        "expanded_size": 73489461,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
                             "os": "linux"
                         }
                     }
