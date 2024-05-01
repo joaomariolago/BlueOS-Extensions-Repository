@@ -406,6 +406,66 @@
                 "type": "device-integration",
                 "website": "https://ceruleansonar.com"
             },
+            "1.9.12-beta.9": {
+                "authors": [
+                    {
+                        "email": "nick.nothom@ceruleansonar.com",
+                        "name": "Nick Nothom"
+                    }
+                ],
+                "company": {
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "email": "dennys.bisogno@ceruleansonar.com",
+                    "name": "Cerulean Sonar"
+                },
+                "docs": null,
+                "extra_links": {},
+                "filter_tags": [],
+                "identifier": "572ecada-021f-5961-9c71-c79deb82fe25",
+                "images": [
+                    {
+                        "digest": "sha256:d6df72a318702657bc906168a6f42b74fe2a6b06fd0d51432db7901551cfdbd3",
+                        "expanded_size": 44662782,
+                        "platform": {
+                            "architecture": "amd64",
+                            "os": "linux",
+                            "variant": null
+                        }
+                    },
+                    {
+                        "digest": "sha256:d9521aca36f3adb67a84358499748d9386edfead62f1ca0838dec52ef9422382",
+                        "expanded_size": 42853862,
+                        "platform": {
+                            "architecture": "arm",
+                            "os": "linux",
+                            "variant": "v7"
+                        }
+                    },
+                    {
+                        "digest": "sha256:69c793475a75f74f246a000181ddcab97f0e357119137070c692ded072adb26b",
+                        "expanded_size": 44661283,
+                        "platform": {
+                            "architecture": "arm64",
+                            "os": "linux",
+                            "variant": null
+                        }
+                    }
+                ],
+                "permissions": {
+                    "HostConfig": {
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ],
+                        "NetworkMode": "host"
+                    }
+                },
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "requirements": null,
+                "support": "https://forum.ceruleansonar.com/categories",
+                "tag": "1.9.12-beta.9",
+                "type": "device-integration",
+                "website": "https://ceruleansonar.com"
+            },
             "1.9.4-beta": {
                 "authors": [
                     {
@@ -2906,15 +2966,6 @@
                 "identifier": "0e828686-ede3-5413-ab42-61dc69e3c319",
                 "images": [
                     {
-                        "digest": "sha256:2d91b976cb14177598d2bf9b0b771fca700a30c6c1fffaac83bf2d43a5d9811d",
-                        "expanded_size": 12779243,
-                        "platform": {
-                            "architecture": "arm64",
-                            "os": "linux",
-                            "variant": null
-                        }
-                    },
-                    {
                         "digest": "sha256:ee47730a16a0c6c439312985acaeb85855fde1577f46b41783f0475553b01e9f",
                         "expanded_size": 12882509,
                         "platform": {
@@ -2999,15 +3050,6 @@
                             "os": "linux",
                             "variant": "v7"
                         }
-                    },
-                    {
-                        "digest": "sha256:6049c6ae59a778bfdeb81dc59fb9b2a76f3794791785e423c535a53fffbe8742",
-                        "expanded_size": 12776642,
-                        "platform": {
-                            "architecture": "arm64",
-                            "os": "linux",
-                            "variant": null
-                        }
                     }
                 ],
                 "permissions": {
@@ -3066,15 +3108,6 @@
                             "architecture": "arm",
                             "os": "linux",
                             "variant": "v7"
-                        }
-                    },
-                    {
-                        "digest": "sha256:a6ae16dfeb32a9d06cd76c4aabe3b4be463d64027dd5536b81f5ae3e3bee55ef",
-                        "expanded_size": 12783001,
-                        "platform": {
-                            "architecture": "arm64",
-                            "os": "linux",
-                            "variant": null
                         }
                     },
                     {
@@ -3221,24 +3254,6 @@
                             "os": "linux",
                             "variant": "v7"
                         }
-                    },
-                    {
-                        "digest": "sha256:a68ff7a4f4e36db71ad9258556bfca67620030473add6b942173f2a502e93c5d",
-                        "expanded_size": 12783022,
-                        "platform": {
-                            "architecture": "arm64",
-                            "os": "linux",
-                            "variant": null
-                        }
-                    },
-                    {
-                        "digest": "sha256:646a5f754a63f22391f999fdda1425871a6e3dbe942b197108b52671ade9cc5b",
-                        "expanded_size": 12886286,
-                        "platform": {
-                            "architecture": "amd64",
-                            "os": "linux",
-                            "variant": null
-                        }
                     }
                 ],
                 "permissions": {
@@ -3297,15 +3312,6 @@
                             "architecture": "arm",
                             "os": "linux",
                             "variant": "v7"
-                        }
-                    },
-                    {
-                        "digest": "sha256:a0c511bcd6d8f761781d200c0e7e7faeae4153028c2e276a33c09f845d8a3b07",
-                        "expanded_size": 12783686,
-                        "platform": {
-                            "architecture": "arm64",
-                            "os": "linux",
-                            "variant": null
                         }
                     },
                     {
@@ -3461,15 +3467,6 @@
                             "os": "linux",
                             "variant": null
                         }
-                    },
-                    {
-                        "digest": "sha256:4772c90308ef74d9139ef32f5bda47c7fa4025a0595efe2fc1585f85b9f3ed1a",
-                        "expanded_size": 13912744,
-                        "platform": {
-                            "architecture": "amd64",
-                            "os": "linux",
-                            "variant": null
-                        }
                     }
                 ],
                 "permissions": {
@@ -3528,24 +3525,6 @@
                             "architecture": "arm",
                             "os": "linux",
                             "variant": "v7"
-                        }
-                    },
-                    {
-                        "digest": "sha256:56d63b11a5cb92e5e01bec57774f94ec9c40c26ad7bb8e86beb95e1b8d5099fe",
-                        "expanded_size": 13825336,
-                        "platform": {
-                            "architecture": "arm64",
-                            "os": "linux",
-                            "variant": null
-                        }
-                    },
-                    {
-                        "digest": "sha256:42a44fec9b02e63eac91c66ec2e154a5dd507cbf69827ebba74295fcdb816afe",
-                        "expanded_size": 13914553,
-                        "platform": {
-                            "architecture": "amd64",
-                            "os": "linux",
-                            "variant": null
                         }
                     }
                 ],
@@ -3612,15 +3591,6 @@
                         "expanded_size": 13831994,
                         "platform": {
                             "architecture": "arm64",
-                            "os": "linux",
-                            "variant": null
-                        }
-                    },
-                    {
-                        "digest": "sha256:b7daccf1097babf959f16005d566dbffd5df701b89b7d7b024fd0db3ba256d80",
-                        "expanded_size": 13921210,
-                        "platform": {
-                            "architecture": "amd64",
                             "os": "linux",
                             "variant": null
                         }
@@ -3916,15 +3886,6 @@
                         }
                     },
                     {
-                        "digest": "sha256:b9ea92debdda150a8db301eeb4b4f99c745959eb3734f265dfa5446caa13e2b5",
-                        "expanded_size": 12829977,
-                        "platform": {
-                            "architecture": "arm64",
-                            "os": "linux",
-                            "variant": null
-                        }
-                    },
-                    {
                         "digest": "sha256:f904553d67ba5fa9f4ecb899dd71a5346a9cca4921d18050bfcff0fc54b3b519",
                         "expanded_size": 12933238,
                         "platform": {
@@ -4077,15 +4038,6 @@
                             "os": "linux",
                             "variant": null
                         }
-                    },
-                    {
-                        "digest": "sha256:dfba1b94c33d7241e78eb25f8e7e84244c89a5a58b00327c6601fb5d6f5891fc",
-                        "expanded_size": 12932781,
-                        "platform": {
-                            "architecture": "amd64",
-                            "os": "linux",
-                            "variant": null
-                        }
                     }
                 ],
                 "permissions": {
@@ -4151,15 +4103,6 @@
                         "expanded_size": 12829506,
                         "platform": {
                             "architecture": "arm64",
-                            "os": "linux",
-                            "variant": null
-                        }
-                    },
-                    {
-                        "digest": "sha256:28b9b6cadf2c97008ea69af63d13242296ec92759181dfa3c6b2846d20936b04",
-                        "expanded_size": 12932763,
-                        "platform": {
-                            "architecture": "amd64",
                             "os": "linux",
                             "variant": null
                         }
@@ -4231,15 +4174,6 @@
                             "os": "linux",
                             "variant": null
                         }
-                    },
-                    {
-                        "digest": "sha256:2fbe021fdb1b67f86fd3b69a89151bba702ce58d7896e3374a06086fee46af66",
-                        "expanded_size": 12943992,
-                        "platform": {
-                            "architecture": "amd64",
-                            "os": "linux",
-                            "variant": null
-                        }
                     }
                 ],
                 "permissions": {
@@ -4305,15 +4239,6 @@
                         "expanded_size": 12854834,
                         "platform": {
                             "architecture": "arm64",
-                            "os": "linux",
-                            "variant": null
-                        }
-                    },
-                    {
-                        "digest": "sha256:2bb1e2463ac734f0f2924ecdb12ec1f6e4f7e20729a0e99e3670fa1170a898ee",
-                        "expanded_size": 12958106,
-                        "platform": {
-                            "architecture": "amd64",
                             "os": "linux",
                             "variant": null
                         }
@@ -4452,24 +4377,6 @@
                             "architecture": "arm",
                             "os": "linux",
                             "variant": "v7"
-                        }
-                    },
-                    {
-                        "digest": "sha256:3dca327fa3606ffe2219abb6a016cdebd51e85cd74fdd8b30dbb8584a1068eac",
-                        "expanded_size": 13820920,
-                        "platform": {
-                            "architecture": "arm64",
-                            "os": "linux",
-                            "variant": null
-                        }
-                    },
-                    {
-                        "digest": "sha256:be7c81a509bb2cd2982d1f03d91bb333d7185cf55a5ea2f7fa0818ad3b37f2f7",
-                        "expanded_size": 13910128,
-                        "platform": {
-                            "architecture": "amd64",
-                            "os": "linux",
-                            "variant": null
                         }
                     }
                 ],
@@ -5785,15 +5692,6 @@
                             "os": "linux",
                             "variant": null
                         }
-                    },
-                    {
-                        "digest": "sha256:e87fa5aae685c797296502f1623cfd032ea3d6c9f7d8e241a382537e0fa0ca85",
-                        "expanded_size": 70567870,
-                        "platform": {
-                            "architecture": "arm",
-                            "os": "linux",
-                            "variant": "v7"
-                        }
                     }
                 ],
                 "permissions": {
@@ -6872,15 +6770,6 @@
                             "architecture": "amd64",
                             "os": "linux",
                             "variant": null
-                        }
-                    },
-                    {
-                        "digest": "sha256:361210e8893ca847ed186885daf3cf6f06c6a455182e7bb90b8622dbe7945c91",
-                        "expanded_size": 45092996,
-                        "platform": {
-                            "architecture": "arm",
-                            "os": "linux",
-                            "variant": "v7"
                         }
                     }
                 ],
