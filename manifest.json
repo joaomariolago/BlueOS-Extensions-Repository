@@ -32,6 +32,15 @@
                             "os": "linux",
                             "variant": null
                         }
+                    },
+                    {
+                        "digest": "sha256:626fa4b14d82af6abd400955aa7e4e9002f4114ba3fd93bb45a9a8f062157bb8",
+                        "expanded_size": 86912704,
+                        "platform": {
+                            "architecture": "arm",
+                            "os": "linux",
+                            "variant": "v7"
+                        }
                     }
                 ],
                 "permissions": {
@@ -857,6 +866,15 @@
                             "architecture": "amd64",
                             "os": "linux",
                             "variant": null
+                        }
+                    },
+                    {
+                        "digest": "sha256:626fa4b14d82af6abd400955aa7e4e9002f4114ba3fd93bb45a9a8f062157bb8",
+                        "expanded_size": 86912704,
+                        "platform": {
+                            "architecture": "arm",
+                            "os": "linux",
+                            "variant": "v7"
                         }
                     }
                 ],
@@ -2928,6 +2946,74 @@
                 "type": "other",
                 "website": null
             },
+            "v0.16.4": {
+                "authors": [
+                    {
+                        "email": "rafael@bluerobotics.com",
+                        "name": "Rafael Araujo Lehmkuhl"
+                    },
+                    {
+                        "email": "patrick@bluerobotics.com",
+                        "name": "Patrick Jos\u00e9 Pereira"
+                    }
+                ],
+                "company": {
+                    "about": "",
+                    "email": "support@bluerobotics.com",
+                    "name": "Blue Robotics"
+                },
+                "docs": null,
+                "extra_links": {},
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "identifier": "04ab7c8f-9c6f-5a5d-a39e-cf174bc36344",
+                "images": [
+                    {
+                        "digest": "sha256:127a0f67416c41ab5b23b33ca044d1e99403b5ec567b8e613e4d1ace96f15f00",
+                        "expanded_size": 12879913,
+                        "platform": {
+                            "architecture": "amd64",
+                            "os": "linux",
+                            "variant": null
+                        }
+                    },
+                    {
+                        "digest": "sha256:26a17b55f44cbec58a16ad4dab967cedb209c5df84f83347f78c0ab7e54a7d62",
+                        "expanded_size": 12439277,
+                        "platform": {
+                            "architecture": "arm",
+                            "os": "linux",
+                            "variant": "v7"
+                        }
+                    }
+                ],
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "readme": null,
+                "requirements": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "tag": "v0.16.4",
+                "type": "other",
+                "website": null
+            },
             "v0.17.0": {
                 "authors": [
                     {
@@ -3031,24 +3117,6 @@
                             "architecture": "arm",
                             "os": "linux",
                             "variant": "v7"
-                        }
-                    },
-                    {
-                        "digest": "sha256:d48e8b65ec25e18caa73f56c6b8c4e80688eedb3c7fb1f72288d353f45d091b1",
-                        "expanded_size": 12782982,
-                        "platform": {
-                            "architecture": "arm64",
-                            "os": "linux",
-                            "variant": null
-                        }
-                    },
-                    {
-                        "digest": "sha256:916702c694881b6a91975554c760be9230072ee9ebd86f733d4b936e5482d89c",
-                        "expanded_size": 12886244,
-                        "platform": {
-                            "architecture": "amd64",
-                            "os": "linux",
-                            "variant": null
                         }
                     }
                 ],
@@ -6367,6 +6435,49 @@
                 "tag": "v0.0.1",
                 "type": "example",
                 "website": "https://github.com/Williangalvani/BlueOS-examples/"
+            },
+            "v1.0.0": {
+                "authors": [
+                    {
+                        "email": "willian@bluerobotics.com",
+                        "name": "Willian Galvani"
+                    }
+                ],
+                "company": {
+                    "about": "",
+                    "email": "support@bluerobotics.com",
+                    "name": "Blue Robotics"
+                },
+                "docs": null,
+                "extra_links": {},
+                "filter_tags": [],
+                "identifier": "ecdb7a22-1823-574b-9165-0fc25d948f3b",
+                "images": [
+                    {
+                        "digest": "sha256:2390afb49552d47ccffea8b715c7cdaa3a440daa7e544ab661b8c8483774f550",
+                        "expanded_size": 80488310,
+                        "platform": {
+                            "architecture": "amd64",
+                            "os": "linux",
+                            "variant": null
+                        }
+                    }
+                ],
+                "permissions": {
+                    "ExposedPorts": {},
+                    "HostConfig": {
+                        "Binds": [
+                            "/usr/blueos/userdata/blueos-proxy/:/usr/blueos/userdata/blueos-proxy/"
+                        ],
+                        "NetworkMode": "host"
+                    }
+                },
+                "readme": "# Blueos Proxy Extension\n\nThis allows you to browse the ROV network as if you were in there.\nIt is useful for accessing and configuring routers and other local devices that may not be reachable from the GCS computer.",
+                "requirements": "core >= 1.1",
+                "support": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
+                "tag": "v1.0.0",
+                "type": "example",
+                "website": "https://github.com/Williangalvani/Blueos-Proxy-Extension"
             },
             "v1.0.1": {
                 "authors": [
