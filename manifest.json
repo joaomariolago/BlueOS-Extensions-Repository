@@ -3508,15 +3508,6 @@
                             "os": "linux",
                             "variant": "v7"
                         }
-                    },
-                    {
-                        "digest": "sha256:c7030a3ae068ca9e4116ec5d8a266d13556271e907806b183a124ad7abdf6efa",
-                        "expanded_size": 13831994,
-                        "platform": {
-                            "architecture": "arm64",
-                            "os": "linux",
-                            "variant": null
-                        }
                     }
                 ],
                 "permissions": {
@@ -4058,6 +4049,74 @@
                 "requirements": null,
                 "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
                 "tag": "v1.0.0-beta.4",
+                "type": "other",
+                "website": null
+            },
+            "v1.0.0-beta.5": {
+                "authors": [
+                    {
+                        "email": "rafael@bluerobotics.com",
+                        "name": "Rafael Araujo Lehmkuhl"
+                    },
+                    {
+                        "email": "patrick@bluerobotics.com",
+                        "name": "Patrick Jos\u00e9 Pereira"
+                    }
+                ],
+                "company": {
+                    "about": "",
+                    "email": "support@bluerobotics.com",
+                    "name": "Blue Robotics"
+                },
+                "docs": null,
+                "extra_links": {},
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "identifier": "3c376a78-ad61-562c-a79a-1c76dbdb7832",
+                "images": [
+                    {
+                        "digest": "sha256:30d9e3c0c53b55b2514b24a314b16b4da139ce282cc827bf6931d14d14e525e1",
+                        "expanded_size": 12492148,
+                        "platform": {
+                            "architecture": "arm",
+                            "os": "linux",
+                            "variant": "v7"
+                        }
+                    },
+                    {
+                        "digest": "sha256:6f537919295007fac6c7705500ea52f05e25a58888d2ed52bff37a1129d21a89",
+                        "expanded_size": 12829506,
+                        "platform": {
+                            "architecture": "arm64",
+                            "os": "linux",
+                            "variant": null
+                        }
+                    }
+                ],
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "readme": null,
+                "requirements": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "tag": "v1.0.0-beta.5",
                 "type": "other",
                 "website": null
             },
@@ -4633,6 +4692,73 @@
                 "requirements": "core >= 1.1",
                 "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL/issues",
                 "tag": "v1.0.4",
+                "type": "device-integration",
+                "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL"
+            },
+            "v1.0.5": {
+                "authors": [
+                    {
+                        "email": "willian@bluerobotics.com",
+                        "name": "Willian Galvani"
+                    }
+                ],
+                "company": {
+                    "about": "",
+                    "email": "support@bluerobotics.com",
+                    "name": "Blue Robotics"
+                },
+                "docs": null,
+                "extra_links": {},
+                "filter_tags": [
+                    "positioning",
+                    "navigation",
+                    "doppler-velocity-log"
+                ],
+                "identifier": "d4a8e194-7374-5f38-9e6b-05d689366907",
+                "images": [
+                    {
+                        "digest": "sha256:7af61750294fa6eb726e73f855d6ec207ba7bf2c0af1e1ac9626c9e29b54a924",
+                        "expanded_size": 71286141,
+                        "platform": {
+                            "architecture": "arm",
+                            "os": "linux",
+                            "variant": "v7"
+                        }
+                    },
+                    {
+                        "digest": "sha256:8d1f4ea8c26a0fc7614c51f890e4cfd8c10cb66254b5c83b03278985b310b5bf",
+                        "expanded_size": 75850736,
+                        "platform": {
+                            "architecture": "arm64",
+                            "os": "linux",
+                            "variant": null
+                        }
+                    }
+                ],
+                "permissions": {
+                    "ExposedPorts": {
+                        "9001/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "9001/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "readme": "# BlueOS-Water-Linked-DVL\n\n## Changelog\n\n### v1.0.5\n - Update texts to make support of DVL A125 obvious\n\n### v1.0.4\n - Fix issue introduced in v1.0.3 where the extension was unable to talk to Cable-guy\n\n### v1.0.3\n - Uses an random available port instead of 9001 to avoid conflict\n - Updated menu icon\n\n### v1.0.2\n - Improved style\n\n### v1.0.1\n - Fixed an issue where the driver was sending Rangefinder messages with invalid data\n\nThis is a docker implementation of a Water Linked DVL A50 and A125 driver as a BlueOS Extension.\n\n## Install\n\nInstall it from [BlueOS extensions tab](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/extensions/).\n\nThe service will show in the \"Extension Manager\" section in BlueOS, where there are some configuration options.\n",
+                "requirements": "core >= 1.1",
+                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL/issues",
+                "tag": "v1.0.5",
                 "type": "device-integration",
                 "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL"
             }
