@@ -3482,6 +3482,74 @@
                     }
                 }
             },
+            "v1.0.0-beta.5": {
+                "identifier": "3c376a78-ad61-562c-a79a-1c76dbdb7832",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 12492148,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:30d9e3c0c53b55b2514b24a314b16b4da139ce282cc827bf6931d14d14e525e1"
+                    },
+                    {
+                        "expanded_size": 12829506,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:6f537919295007fac6c7705500ea52f05e25a58888d2ed52bff37a1129d21a89"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.5",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "v1.0.0-beta.4": {
                 "identifier": "e0a24959-f811-520a-8b49-94aa3f96f963",
                 "type": "other",
@@ -7938,6 +8006,66 @@
                 ],
                 "extra_links": {},
                 "tag": "1.0.2",
+                "docs": null,
+                "readme": "# BlueOS node-red\n\nNode-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.\n\nIt provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.",
+                "support": null,
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/userdata/node-red:/data:rw",
+                            "/etc/hostname:/etc/hostname:ro",
+                            "/dev:/dev:rw",
+                            "/:/home/workspace/host:rw"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "1.0.1": {
+                "identifier": "8dda3c26-b403-5548-8d75-b95100108b4b",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 161234072,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:7e898a24b188429bad6bb6d1229ae906a1447b732afbc69fe29b22a5b839af89"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "code",
+                    "development",
+                    "ide",
+                    "node-red"
+                ],
+                "extra_links": {},
+                "tag": "1.0.1",
                 "docs": null,
                 "readme": "# BlueOS node-red\n\nNode-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.\n\nIt provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.",
                 "support": null,
