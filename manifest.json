@@ -429,15 +429,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:cd327daa249b1b355617531db9f751ff2099ef3e2881c736f2e12eff31c97daf"
-                    },
-                    {
-                        "expanded_size": 38383327,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:a21de0655ed73d40b7415f5e85bd727d709c9517d9960b10e2d4e5dee49624e9"
                     }
                 ],
                 "authors": [
@@ -3778,15 +3769,6 @@
                         "digest": "sha256:3eb6c817a8aa0536b29b67e06578538f0c51d9c1cdd4e926390e726245296cde"
                     },
                     {
-                        "expanded_size": 12783049,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5b8349937f2f018a0b43e3c78fff1e6d461d11a01b7833a1470bde18b55b3aea"
-                    },
-                    {
                         "expanded_size": 12886304,
                         "platform": {
                             "architecture": "amd64",
@@ -4252,15 +4234,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:c36509963cc8a988f941ee47c705ad956386076a37d38adf3e9d4feb18a65321"
-                    },
-                    {
-                        "expanded_size": 12776569,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f60a4fea7a512dbbc357f8a630dcead3f3efd1ee40deb2e523ac1ea423864740"
                     }
                 ],
                 "authors": [
@@ -4313,15 +4286,6 @@
                 "website": null,
                 "images": [
                     {
-                        "expanded_size": 12882440,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:956577cd11744766acc845504c83c39aeeae35747e9be79a715f75eb7df132de"
-                    },
-                    {
                         "expanded_size": 12441835,
                         "platform": {
                             "architecture": "arm",
@@ -4329,15 +4293,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:4e2000d0ec7d3a031093fcab26781affc338dac58ec4a1a4ee0159678f8e462c"
-                    },
-                    {
-                        "expanded_size": 12779191,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:9a8d98a9a5c711f69026a98bcc888f2f878d0469d3bc37a9bfed50ce6e915e2e"
                     }
                 ],
                 "authors": [
@@ -4467,15 +4422,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:7af61750294fa6eb726e73f855d6ec207ba7bf2c0af1e1ac9626c9e29b54a924"
-                    },
-                    {
-                        "expanded_size": 75850736,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:8d1f4ea8c26a0fc7614c51f890e4cfd8c10cb66254b5c83b03278985b310b5bf"
                     }
                 ],
                 "authors": [
