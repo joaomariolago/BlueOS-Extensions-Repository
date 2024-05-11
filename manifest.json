@@ -5533,28 +5533,95 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/network-scanner/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
         "versions": {
+            "v1.0.1": {
+                "identifier": "13bfb792-567e-5440-90bc-47aecc0e6503",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "images": [
+                    {
+                        "expanded_size": 139164501,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5e82e94b39b55a9e2eee865259af83d311dbfbae1470fc304c77a9cc93a0efbe"
+                    },
+                    {
+                        "expanded_size": 161690019,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:bb52f8f92b786a3576e22519059196a401dfdfcb705c989f8d4696ee165d1995"
+                    },
+                    {
+                        "expanded_size": 167205891,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:05abfefd25d3fa05d6ddce099d68ee7df4f2a48cc364eb972e409c164c31bc01"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.1",
+                "docs": null,
+                "readme": "# BlueOS Network SCanner\n\nThis allows scanning each individual logical interface in the vehicle to find connected devices\n\n## changelog\n\nv1.0.1:\n\n - fixed table titles\n - fixed cleanup when doing different scan types\n - fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service",
+                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
+            },
             "v1.0.0": {
                 "identifier": "9784d249-52a2-57f1-81be-488a862daec0",
                 "type": "tool",
                 "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
                 "images": [
                     {
-                        "expanded_size": 73603449,
+                        "expanded_size": 167206981,
                         "platform": {
                             "architecture": "amd64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:1b8f6527ff9f202332ed26f9ab43d9f412f9866ec1bfcc59c7bb0162ddac638d"
+                        "digest": "sha256:0daea257fead5fe6622ac888910e082b8e9ac4b1263907d128db8d8926753f5d"
                     },
                     {
-                        "expanded_size": 67112226,
+                        "expanded_size": 139162770,
                         "platform": {
                             "architecture": "arm",
                             "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:1d942782f1c5bc072f2505f2fe5308006ce42b64acc6edafbc2738fa17df5ca5"
+                        "digest": "sha256:73768f50b93360ed53bfa76ca220d06e812af178b40f2bfd0ffe5a75dc2a351e"
+                    },
+                    {
+                        "expanded_size": 139162731,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v8",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:730538912fce663c577e2af81fda7b9f706228445bd73c7930d8b07f57b77d3c"
                     }
                 ],
                 "authors": [
