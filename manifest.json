@@ -2487,6 +2487,65 @@
                     }
                 }
             },
+            "v1.0.0-beta.12": {
+                "identifier": "2dd50e51-2f3c-552b-8e1f-c85a524ca7cb",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 13792434,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:ac0f19bc304990816ebacd561d9b07baa797ca2ef64faa24a7f3843bc00d13d9"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.12",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "v1.0.0-beta.11": {
                 "identifier": "ec8d7f8b-0b0f-5005-9852-7da496cd5786",
                 "type": "other",
@@ -2745,15 +2804,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:2aa3c3d0560b14003fb3752e2c84d30898a066876af19067333c3d6cb650efd1"
-                    },
-                    {
-                        "expanded_size": 12854834,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:ae45f97aa0d7fe6c57bed8eb57e19539a8161f1d341a2fcf0f29e3aac8a8281e"
                     }
                 ],
                 "authors": [
@@ -2872,15 +2922,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:30d9e3c0c53b55b2514b24a314b16b4da139ce282cc827bf6931d14d14e525e1"
-                    },
-                    {
-                        "expanded_size": 12829506,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:6f537919295007fac6c7705500ea52f05e25a58888d2ed52bff37a1129d21a89"
                     }
                 ],
                 "authors": [
@@ -3414,15 +3455,6 @@
                 "website": null,
                 "images": [
                     {
-                        "expanded_size": 12879913,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:127a0f67416c41ab5b23b33ca044d1e99403b5ec567b8e613e4d1ace96f15f00"
-                    },
-                    {
                         "expanded_size": 12439277,
                         "platform": {
                             "architecture": "arm",
@@ -3481,15 +3513,6 @@
                 "type": "other",
                 "website": null,
                 "images": [
-                    {
-                        "expanded_size": 12882509,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:ee47730a16a0c6c439312985acaeb85855fde1577f46b41783f0475553b01e9f"
-                    },
                     {
                         "expanded_size": 12441878,
                         "platform": {
@@ -5402,6 +5425,67 @@
                     }
                 }
             },
+            "v1.0.1": {
+                "identifier": "7a4a7012-1030-5396-a25f-f9feb4bee516",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
+                "images": [
+                    {
+                        "expanded_size": 84582989,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:403797eeef9396e67001caa71d638c64e10a8e27aad5f16838208de4c7ae5c47"
+                    },
+                    {
+                        "expanded_size": 90059708,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:f5e20bed5a5733ea65c3a929d0492032897c550314fef9dd9db2c725a8a796a3"
+                    },
+                    {
+                        "expanded_size": 91851076,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:26460f49d1138ff647167ab1b2f01564a0cbaf014614175a995a385ae621e275"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.1",
+                "docs": null,
+                "readme": "# Blueos Proxy Extension\n\nThis allows you to browse the ROV network as if you were in there.\nIt is useful for accessing and configuring routers and other local devices that may not be reachable from the GCS computer.",
+                "support": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {},
+                    "HostConfig": {
+                        "Binds": [
+                            "/usr/blueos/userdata/blueos-proxy/:/usr/blueos/userdata/blueos-proxy/"
+                        ],
+                        "NetworkMode": "host"
+                    }
+                }
+            },
             "v1.0.0": {
                 "identifier": "ecdb7a22-1823-574b-9165-0fc25d948f3b",
                 "type": "example",
@@ -7216,122 +7300,6 @@
                     }
                 }
             },
-            "1.0.6": {
-                "identifier": "5a5162c2-633a-5578-9e92-f88f52f30baf",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 306628413,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:a917f9dc8ea4b6c8c55d2d740d28e034ee0e83e46422a8bb6a40e9fe8b8b5af6"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrickelectric@gmail.com"
-                    }
-                ],
-                "filter_tags": [
-                    "code",
-                    "development",
-                    "ide",
-                    "vscode",
-                    "python",
-                    "rust"
-                ],
-                "extra_links": {},
-                "tag": "1.0.6",
-                "docs": null,
-                "readme": "# BlueOS Code Server\n\nBlueOS extension for OpenVSCode Server.\n\nOpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.",
-                "support": null,
-                "requirements": null,
-                "company": null,
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/usr/blueos/userdata:/home/workspace/userdata:rw",
-                            "/usr/blueos/openvscode:/openvscode:rw",
-                            "/etc/hostname:/etc/hostname:ro",
-                            "/:/home/workspace/host:rw"
-                        ],
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "1.0.5": {
-                "identifier": "c989ddf7-85f3-5460-b5e5-a639850d69d0",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 306628410,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:fca3d0af07145c5a4b15ed014f9e7db84d2f358b4d22716cf0fda8d31cbc479b"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrickelectric@gmail.com"
-                    }
-                ],
-                "filter_tags": [
-                    "code",
-                    "development",
-                    "ide",
-                    "vscode",
-                    "python",
-                    "rust"
-                ],
-                "extra_links": {},
-                "tag": "1.0.5",
-                "docs": null,
-                "readme": "# BlueOS Code Server\n\nBlueOS extension for OpenVSCode Server.\n\nOpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.",
-                "support": null,
-                "requirements": null,
-                "company": null,
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/usr/blueos/userdata:/home/workspace/userdata:rw",
-                            "/usr/blueos/openvscode:/openvscode:rw",
-                            "/etc/hostname:/etc/hostname:ro",
-                            "/:/home/workspace/host:rw"
-                        ],
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "1.0.4": {
                 "identifier": "fb045e44-05da-513c-bb57-102a345fbe29",
                 "type": "other",
@@ -7477,6 +7445,63 @@
                 ],
                 "extra_links": {},
                 "tag": "1.0.2",
+                "docs": null,
+                "readme": "# BlueOS Code Server\n\nBlueOS extension for OpenVSCode Server.\n\nOpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.",
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/userdata:/home/workspace/userdata:rw",
+                            "/usr/blueos/openvscode:/openvscode:rw",
+                            "/:/home/workspace/host:rw"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "1.0.1": {
+                "identifier": "afb9fde5-0177-5c09-b3f4-99121be818a9",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 211619828,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:dee5ee2a9c888be36172b674b9284a9434147874af39ca6680c017de0dfa8610"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "code",
+                    "development",
+                    "ide",
+                    "vscode",
+                    "python",
+                    "rust"
+                ],
+                "extra_links": {},
+                "tag": "1.0.1",
                 "docs": null,
                 "readme": "# BlueOS Code Server\n\nBlueOS extension for OpenVSCode Server.\n\nOpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.",
                 "support": null,
