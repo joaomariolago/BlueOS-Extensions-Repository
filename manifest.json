@@ -8,68 +8,6 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/clydemcqueen/wl_ugps_external/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/clydemcqueen/company_logo.png",
         "versions": {
-            "v1.0.1": {
-                "identifier": "32a5efd4-9364-5021-a677-9c6371f90e29",
-                "type": "device-integration",
-                "website": "https://github.com/clydemcqueen/wl_ugps_external_extension",
-                "images": [
-                    {
-                        "expanded_size": 44578751,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:e0fab510697080cd9c972e1eeb987371fc49f11d64384574a1c80fd72da5c3a6"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Clyde McQueen",
-                        "email": "clyde@mcqueen.net"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "short-baseline"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.1",
-                "docs": null,
-                "readme": "# WL UGPS External \n\nSend NMEA position information (GGA and HDT) to the [Water Linked UGPS](https://waterlinked.com/underwater-gps-g2) API.\n\n## Typical Configuration\n\nAdd a satellite compass to the topside vessel and connect it to the ROV Ethernet network.\n* It should have a static IP address on the 192.168.2.X subnet\n* It should send GGA and HDT messages via UDP to BlueOS at 192.168.2.2:6200\n\nInstall this extension in [BlueOS](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/overview/):\n* Select _Extensions_ in the sidebar\n* Click on _WL UGPS External_\n* Click _Install_\n\nAfter a few moments you should see the _WL UGPS External_ entry in the sidebar.\nClick on it to see a very simple UI.\n\n## Arguments\n\n* `UGPS_HOST` is the IP address of the WL UGPS G2 box, the default is `http://192.168.2.94`\n* `SEND_RATE` is the rate to send position information to the G2 box, the default is 2Hz\n\n## Caveats\n\n* The G2 box still needs a GPS fix to synchronize its clock.\n\n## Releases\n\n### v1.0.1\n\n* Simplified README\n\n### v1.0.0\n\n* Initial release\n",
-                "support": "https://github.com/clydemcqueen/wl_ugps_external_extension/issues",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Discovery Bay Robotics",
-                    "email": "clyde@mcqueen.net"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8080/tcp": {},
-                        "6200:6200/udp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "6200/udp": [
-                                {
-                                    "HostPort": "6200"
-                                }
-                            ],
-                            "8080/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    },
-                    "Env": [
-                        "UGPS_HOST=http://192.168.2.94",
-                        "SEND_RATE=2.0"
-                    ]
-                }
-            },
             "v1.0.0": {
                 "identifier": "b0578e4c-ce55-55d4-8f15-6769980b788c",
                 "type": "device-integration",
@@ -582,24 +520,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:f813cd7f5be1895be141b816a6f216fde2b191f710a054ce61f8411cd2896af0"
-                    },
-                    {
-                        "expanded_size": 40285609,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:4ebbc42072d29c9c40fa1117613187cca80221b90da372b87cd6fc51ce4f6b4b"
-                    },
-                    {
-                        "expanded_size": 42092623,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:22858307b0f0287f3c2e115480bd7abd58215fc3d635d9b0b04ed8c5fe692100"
                     }
                 ],
                 "authors": [
@@ -2373,15 +2293,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:98e6a964eada966421abb7b1f5f8e7d2544943ebd6fab900b2a8be23bf804a96"
-                    },
-                    {
-                        "expanded_size": 14863090,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:8aa06572b20c18da52fe51e28519ef0de5246083db66e28f8245c58cd0d327e8"
                     }
                 ],
                 "authors": [
@@ -2618,15 +2529,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:8bea448f2cea2512b96b3e71c6a641b6a4eae9df81772b68d29640c9bb31b8de"
-                    },
-                    {
-                        "expanded_size": 13823538,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0f892f0e3906a8486bf743233b8a056df2f18afa07a59fa125e349f1ca074747"
                     }
                 ],
                 "authors": [
@@ -3158,15 +3060,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:3eb6c817a8aa0536b29b67e06578538f0c51d9c1cdd4e926390e726245296cde"
-                    },
-                    {
-                        "expanded_size": 12886304,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:9df337791ba444253eafd88b701f8b5756896ae7fc9b167cbc2812bcdb85f2fe"
                     }
                 ],
                 "authors": [
@@ -7287,6 +7180,122 @@
                             "/usr/blueos/openvscode:/openvscode:rw",
                             "/var/run/docker.sock:/var/run/docker.sock:rw",
                             "/usr/bin/docker:/usr/bin/docker:ro",
+                            "/etc/hostname:/etc/hostname:ro",
+                            "/:/home/workspace/host:rw"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "1.0.6": {
+                "identifier": "5a5162c2-633a-5578-9e92-f88f52f30baf",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 306628413,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a917f9dc8ea4b6c8c55d2d740d28e034ee0e83e46422a8bb6a40e9fe8b8b5af6"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "code",
+                    "development",
+                    "ide",
+                    "vscode",
+                    "python",
+                    "rust"
+                ],
+                "extra_links": {},
+                "tag": "1.0.6",
+                "docs": null,
+                "readme": "# BlueOS Code Server\n\nBlueOS extension for OpenVSCode Server.\n\nOpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.",
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/userdata:/home/workspace/userdata:rw",
+                            "/usr/blueos/openvscode:/openvscode:rw",
+                            "/etc/hostname:/etc/hostname:ro",
+                            "/:/home/workspace/host:rw"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "1.0.5": {
+                "identifier": "c989ddf7-85f3-5460-b5e5-a639850d69d0",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 306628410,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:fca3d0af07145c5a4b15ed014f9e7db84d2f358b4d22716cf0fda8d31cbc479b"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "code",
+                    "development",
+                    "ide",
+                    "vscode",
+                    "python",
+                    "rust"
+                ],
+                "extra_links": {},
+                "tag": "1.0.5",
+                "docs": null,
+                "readme": "# BlueOS Code Server\n\nBlueOS extension for OpenVSCode Server.\n\nOpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.",
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/userdata:/home/workspace/userdata:rw",
+                            "/usr/blueos/openvscode:/openvscode:rw",
                             "/etc/hostname:/etc/hostname:ro",
                             "/:/home/workspace/host:rw"
                         ],
