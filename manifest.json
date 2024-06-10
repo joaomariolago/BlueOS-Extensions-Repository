@@ -6590,6 +6590,200 @@
         }
     },
     {
+        "identifier": "williangalvani.plc-diagnostics",
+        "name": "PLC Diagnostics",
+        "website": "https://github.com/Williangalvani/plc-extension",
+        "docker": "williangalvani/blueos-plc",
+        "description": "Diagnose issues with your thether",
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/plc-diagnostics/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
+        "versions": {
+            "1.0.1": {
+                "identifier": "37303bf5-4438-56b4-b632-704649aa3a6e",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87951124,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b189e8966331dbaacbd9d21c5583f0bb0c4faf00c9f8c3fd2d6fce2e6b330117"
+                    },
+                    {
+                        "expanded_size": 94070756,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:852084320d5d8516d94f787aa28ee0e0615087849e78f6bc8533176d8f2a3713"
+                    },
+                    {
+                        "expanded_size": 100027144,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:1e451e2e07c76d97625aabaf4a8748e3e5a8aad58e45fa5b8bf773a25714e365"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "1.0.1",
+                "docs": null,
+                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/1.0.1/README.md: status: 404: 404: Not Found",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
+                    },
+                    {
+                        "expanded_size": 94070433,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:35fae2fcf97b0f00322ec81d9e73d4d9621aecf3541465dfa378b76b5414fc9d"
+                    },
+                    {
+                        "expanded_size": 100026516,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "v1.0.0",
+                "docs": null,
+                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/v1.0.0/README.md: status: 404: 404: Not Found",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "1.0.0": {
+                "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3b74784581bf1a4c0c922944c69571e3434cf2de40db7d0bbd7fa461e7e4bdc9"
+                    },
+                    {
+                        "expanded_size": 94070433,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:48ae6ef7653b04e5ef8153ded54bd7a12a2e89979711a9259fe9982c33938a0a"
+                    },
+                    {
+                        "expanded_size": 100026516,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:f9cb086c5feade117cecb100c8b2a55b85247e07cf98e16ea3967cbb982705e0"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "1.0.0",
+                "docs": null,
+                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/1.0.0/README.md: status: 404: 404: Not Found",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            }
+        }
+    },
+    {
         "identifier": "williangalvani.example2",
         "name": "Example 2",
         "website": "https://github.com/Williangalvani/BlueOS-examples/",
