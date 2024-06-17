@@ -2154,15 +2154,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:96cfe2f9ecd1cdece9cdc82f7ea24121c7a56beb4e02d502ecc6b71dca9a1cce"
-                    },
-                    {
-                        "expanded_size": 72798434,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:65115990f649c932a39466fc846aaf671608b441c1e8e8448b8cd4496204d88d"
                     }
                 ],
                 "authors": [
@@ -4898,7 +4889,7 @@
                 "extra_links": {},
                 "tag": "0.0.7",
                 "docs": null,
-                "readme": "Could not get readme, expected type to be text/plain but got text/html",
+                "readme": "Cannot connect to host www.jmrobotics.no:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.jmrobotics.no'. (_ssl.c:1006)\")]",
                 "support": "https://www.jmrobotics.no",
                 "requirements": "core >= 1",
                 "company": {
@@ -4971,7 +4962,7 @@
                 "extra_links": {},
                 "tag": "0.0.6",
                 "docs": null,
-                "readme": "Could not get readme, expected type to be text/plain but got text/html",
+                "readme": "Cannot connect to host www.jmrobotics.no:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.jmrobotics.no'. (_ssl.c:1006)\")]",
                 "support": "https://www.jmrobotics.no",
                 "requirements": "core >= 1",
                 "company": {
@@ -5044,7 +5035,7 @@
                 "extra_links": {},
                 "tag": "0.0.5",
                 "docs": null,
-                "readme": "Could not get readme, expected type to be text/plain but got text/html",
+                "readme": "Cannot connect to host www.jmrobotics.no:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.jmrobotics.no'. (_ssl.c:1006)\")]",
                 "support": "https://www.jmrobotics.no",
                 "requirements": "core >= 1",
                 "company": {
@@ -5117,7 +5108,7 @@
                 "extra_links": {},
                 "tag": "0.0.4",
                 "docs": null,
-                "readme": "Could not get readme, expected type to be text/plain but got text/html",
+                "readme": "Cannot connect to host www.jmrobotics.no:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.jmrobotics.no'. (_ssl.c:1006)\")]",
                 "support": "https://www.jmrobotics.no",
                 "requirements": "core >= 1",
                 "company": {
@@ -5190,7 +5181,7 @@
                 "extra_links": {},
                 "tag": "0.0.3",
                 "docs": null,
-                "readme": "Could not get readme, expected type to be text/plain but got text/html",
+                "readme": "Cannot connect to host www.jmrobotics.no:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.jmrobotics.no'. (_ssl.c:1006)\")]",
                 "support": "https://www.jmrobotics.no",
                 "requirements": "core >= 1",
                 "company": {
@@ -5262,7 +5253,7 @@
                 "extra_links": {},
                 "tag": "0.0.2",
                 "docs": null,
-                "readme": "Could not get readme, expected type to be text/plain but got text/html",
+                "readme": "Cannot connect to host www.jmrobotics.no:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.jmrobotics.no'. (_ssl.c:1006)\")]",
                 "support": "https://www.jmrobotics.no",
                 "requirements": "core >= 1",
                 "company": {
@@ -5328,7 +5319,7 @@
                 "extra_links": {},
                 "tag": "0.0.1",
                 "docs": null,
-                "readme": "Could not get readme, expected type to be text/plain but got text/html",
+                "readme": "Cannot connect to host www.jmrobotics.no:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.jmrobotics.no'. (_ssl.c:1006)\")]",
                 "support": "https://www.jmrobotics.no",
                 "requirements": "core >= 1",
                 "company": {
@@ -6932,67 +6923,6 @@
                     }
                 }
             },
-            "v1.0.0": {
-                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
-                "type": "example",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 87950576,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
-                    },
-                    {
-                        "expanded_size": 94070433,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:35fae2fcf97b0f00322ec81d9e73d4d9621aecf3541465dfa378b76b5414fc9d"
-                    },
-                    {
-                        "expanded_size": 100026516,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "$AUTHOR",
-                        "email": "$AUTHOR_EMAIL"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {
-                    "source": "https://github.com/$OWNER/$REPO"
-                },
-                "tag": "v1.0.0",
-                "docs": null,
-                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/v1.0.0/README.md: status: 404: 404: Not Found",
-                "support": null,
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "$MAINTAINER",
-                    "email": "$MAINTAINER_EMAIL"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.0": {
                 "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
                 "type": "example",
@@ -7039,6 +6969,67 @@
                 "tag": "1.0.0",
                 "docs": null,
                 "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/1.0.0/README.md: status: 404: 404: Not Found",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
+                    },
+                    {
+                        "expanded_size": 94070433,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:35fae2fcf97b0f00322ec81d9e73d4d9621aecf3541465dfa378b76b5414fc9d"
+                    },
+                    {
+                        "expanded_size": 100026516,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "v1.0.0",
+                "docs": null,
+                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/v1.0.0/README.md: status: 404: 404: Not Found",
                 "support": null,
                 "requirements": "core >= 1.1",
                 "company": {
